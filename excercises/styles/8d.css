@@ -1,0 +1,33 @@
+.input-email {
+    display: block;
+}
+
+.input-name,
+.input-email {
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-name {
+    width: 114px;
+}
+
+.input-email {
+    width: 265px;
+}
+
+.sign-up-button {
+    background-color: #2f7fe7;
+    color: white;
+    width: 300px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px
+}
+
+.count {
+    border: none;
+    background-color: #1e74ed;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 10px;
+    border-radius: 20px;
+}

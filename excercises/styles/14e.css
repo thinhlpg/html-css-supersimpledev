@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3000px;
+    /*padding: 10px 50px; didn't work because the header in in upper dimension*/
+}
+
+.friend-suggestion {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.name {
+    flex: 1;
+    font-weight: bold;
+}
+
+.add-friend-button {
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 7px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.message-button {
+    border: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+
+}

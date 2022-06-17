@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inboxes {
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px 15px;
+}
+
+.title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.inbox {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.inbox-text {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message {
+    color: gray;
+}
+
+.time {
+    font-size: 14px;
+    color: gray;
+}
